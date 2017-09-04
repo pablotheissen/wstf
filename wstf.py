@@ -4,7 +4,7 @@ import pyphen
 import re
 from collections import Counter, defaultdict
 
-demotext = citrin
+demotext = "Alle meine Entchen schwimmen auf dem See, Köpfchen unter's Wasser, Schwänzchen in die Höh."
 
 def count_sentences_german(text):
 	""" Count number of sentences by counting end-dots but avoid counting
